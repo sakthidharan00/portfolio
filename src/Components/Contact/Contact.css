@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Julee&family=Kalam&family=Kanit&family=Lato&family=Lora&family=Merienda+One&family=Noto+Sans:ital@1&family=Overpass&family=Shadows+Into+Light&family=Tilt+Neon&display=swap');
+
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+
+
+}
+
+.contact_info {
+
+    width: 90%;
+    display: grid;
+    place-items: center;
+    text-align: start;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    font-weight: 100;
+
+    
+ 
+    /* font-family: 'Merienda One', cursive; */
+
+
+   
+}
+.contact_info>p{
+    color: rgb(34, 33, 33);
+}
+p>b{
+    font-size: 30px;
+    font-weight: 500 !important;
+    color: black;
+}
+
+.insta {
+    color: blueviolet;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.insta>.css-i4bv87-MuiSvgIcon-root {
+    font-size: 30px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.insta>.css-i4bv87-MuiSvgIcon-root:hover {
+    transform: scale(1.7);
+    color: blueviolet;
+}
+
+.fb>.css-i4bv87-MuiSvgIcon-root {
+    font-size: 30px;
+    color: blue;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.fb>.css-i4bv87-MuiSvgIcon-root:hover {
+    transform: scale(1.7);
+    margin-right: 10px;
+
+}
+
+.git>.css-i4bv87-MuiSvgIcon-root {
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.git>.css-i4bv87-MuiSvgIcon-root:hover {
+    transform: scale(1.7);
+
+}
+
+.socialMedia_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

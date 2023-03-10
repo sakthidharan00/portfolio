@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.home{
+ 
+    height: 100vh;
+    background-color: white;
+    place-items: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/005/467/620/original/movement-abstract-dot-geometric-polygonal-structure-on-white-background-in-4k-3d-animation-free-video.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* image tag */
+
+.home>.home_content_right>.profile_pic{
+ width:350px;
+ height: 350px  ;
+ border-radius: 100%;
+ transition:  0.3s ease-in-out;
+ box-shadow: 0px 0px 25px 5px blue;
+
+ }
+.home>.home_content_right>.profile_pic:hover{
+    box-shadow: 0px 0px 25px 5px blue;
+    
+}
+
+/*personal info*/
+.home>.home_content_left>.home-info>h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+}
+.home>.home_content_left>.home-info>h3{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.home>.home_content_left>.home_buttons>.download{
+    background-color: blue;
+    color: white;
+    margin-right: 25px;
+}
+
+.home>.home_content_left>.home_buttons>.works{
+   
+    background-color: white;
+    border: 2px solid blue;
+    
+
+    font-weight: 400;
+    
+}
+.home>.home_content_left>.home_buttons>.works:hover{
+   box-shadow: 0px 0px 5px 1px blue;
+
+}
+.home>.home_content_left>.home_buttons>.works>a{
+    color: blue;
+}
