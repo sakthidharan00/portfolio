@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Julee&family=Kanit&family=Lato&family=Lora&family=Merienda+One&family=Noto+Sans:ital@1&family=Overpass&family=Shadows+Into+Light&family=Tilt+Neon&display=swap');
 .Project_container{
-    height: 100vh;
-    place-items: center;
-
-    padding-top: 100px;
-    place-items: center;
+    
+   padding-top: 100px;
+ 
+  
 }
 #projects_images{
     width:450px;

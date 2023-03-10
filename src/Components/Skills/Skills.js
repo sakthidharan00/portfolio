@@ -7,7 +7,7 @@ const Skills = () => {
             <div className=' row skills'>
 
                 <div className=' col-12 col-sm-6 skill-left'>
-                    <img src='https://dxminds.com/wp-content/uploads/2020/09/Hire-certified-Mern-Stack-developers-India.png' />
+                    <img src='https://dxminds.com/wp-content/uploads/2020/09/Hire-certified-Mern-Stack-developers-India.png' className='img-fluid' />
 
                 </div>
                 <div className=' col-12 col-sm-4 skill-right'>

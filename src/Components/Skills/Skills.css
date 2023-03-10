@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 .skills {
-    height: 100vh;
+  
     place-items: center;
-   padding-top: 80px;
+    padding-top: 200px;
+    margin-bottom: 150px;
+   
 }
 
 .skills>.skill-right>h1 {
