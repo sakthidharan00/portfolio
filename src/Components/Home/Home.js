@@ -12,8 +12,8 @@ const Home = () => {
                         <h3>Web Developer</h3>
                     </div>
                     <div className='home_buttons'>
-                        <button className='btn download '>Download CV</button>
-                        <button className=' btn works '><a href="#Projects" className='text-decoration-none ' download={require("../../Assests/sakthidharan_resume.pdf")}>My Works</a></button>
+                        <button className='btn download '><a className='text-decoration-none text-white' href="https://drive.google.com/file/d/1CCt-L_wFZSoIoM2fOVMLpqIfGGMkkVh4/view?usp=share_link" target="_blank">View CV</a></button>
+                        <button className=' btn works '><a href="#Projects" className='text-decoration-none ' >My Works</a></button>
 
                     </div>
 
