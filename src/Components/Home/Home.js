@@ -13,7 +13,7 @@ const Home = () => {
                     </div>
                     <div className='home_buttons'>
                         <button className='btn download '>Download CV</button>
-                        <button className=' btn works '><a href="#Projects" className='text-decoration-none '>My Works</a></button>
+                        <button className=' btn works '><a href="#Projects" className='text-decoration-none ' download={require("../../Assests/sakthidharan_resume.pdf")}>My Works</a></button>
 
                     </div>
 
